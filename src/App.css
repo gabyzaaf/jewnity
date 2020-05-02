@@ -1,0 +1,321 @@
+.App {
+  text-align: center;
+  /* overflow-y: hidden; */
+}
+
+/* body {
+  background-image: linear-gradient(
+      131deg,
+      rgba(186, 186, 186, 0.01) 0%,
+      rgba(186, 186, 186, 0.01) 16.667%,
+      rgba(192, 192, 192, 0.01) 16.667%,
+      rgba(192, 192, 192, 0.01) 33.334%,
+      rgba(48, 48, 48, 0.01) 33.334%,
+      rgba(48, 48, 48, 0.01) 50.001000000000005%,
+      rgba(33, 33, 33, 0.01) 50.001%,
+      rgba(33, 33, 33, 0.01) 66.668%,
+      rgba(182, 182, 182, 0.01) 66.668%,
+      rgba(182, 182, 182, 0.01) 83.33500000000001%,
+      rgba(211, 211, 211, 0.01) 83.335%,
+      rgba(211, 211, 211, 0.01) 100.002%
+    ),
+    linear-gradient(
+      148deg,
+      rgba(48, 48, 48, 0.01) 0%,
+      rgba(48, 48, 48, 0.01) 16.667%,
+      rgba(178, 178, 178, 0.01) 16.667%,
+      rgba(178, 178, 178, 0.01) 33.334%,
+      rgba(192, 192, 192, 0.01) 33.334%,
+      rgba(192, 192, 192, 0.01) 50.001000000000005%,
+      rgba(237, 237, 237, 0.01) 50.001%,
+      rgba(237, 237, 237, 0.01) 66.668%,
+      rgba(194, 194, 194, 0.01) 66.668%,
+      rgba(194, 194, 194, 0.01) 83.33500000000001%,
+      rgba(227, 227, 227, 0.01) 83.335%,
+      rgba(227, 227, 227, 0.01) 100.002%
+    ),
+    linear-gradient(
+      138deg,
+      rgba(146, 146, 146, 0.03) 0%,
+      rgba(146, 146, 146, 0.03) 25%,
+      rgba(33, 33, 33, 0.03) 25%,
+      rgba(33, 33, 33, 0.03) 50%,
+      rgba(46, 46, 46, 0.03) 50%,
+      rgba(46, 46, 46, 0.03) 75%,
+      rgba(172, 172, 172, 0.03) 75%,
+      rgba(172, 172, 172, 0.03) 100%
+    ),
+    linear-gradient(
+      38deg,
+      rgba(3, 3, 3, 0.03) 0%,
+      rgba(3, 3, 3, 0.03) 16.667%,
+      rgba(28, 28, 28, 0.03) 16.667%,
+      rgba(28, 28, 28, 0.03) 33.334%,
+      rgba(236, 236, 236, 0.03) 33.334%,
+      rgba(236, 236, 236, 0.03) 50.001000000000005%,
+      rgba(3, 3, 3, 0.03) 50.001%,
+      rgba(3, 3, 3, 0.03) 66.668%,
+      rgba(207, 207, 207, 0.03) 66.668%,
+      rgba(207, 207, 207, 0.03) 83.33500000000001%,
+      rgba(183, 183, 183, 0.03) 83.335%,
+      rgba(183, 183, 183, 0.03) 100.002%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(20, 20, 20, 0.02) 0%,
+      rgba(20, 20, 20, 0.02) 20%,
+      rgba(4, 4, 4, 0.02) 20%,
+      rgba(4, 4, 4, 0.02) 40%,
+      rgba(194, 194, 194, 0.02) 40%,
+      rgba(194, 194, 194, 0.02) 60%,
+      rgba(34, 34, 34, 0.02) 60%,
+      rgba(34, 34, 34, 0.02) 80%,
+      rgba(71, 71, 71, 0.02) 80%,
+      rgba(71, 71, 71, 0.02) 100%
+    ),
+    linear-gradient(
+      78deg,
+      rgba(190, 190, 190, 0.02) 0%,
+      rgba(190, 190, 190, 0.02) 20%,
+      rgba(95, 95, 95, 0.02) 20%,
+      rgba(95, 95, 95, 0.02) 40%,
+      rgba(71, 71, 71, 0.02) 40%,
+      rgba(71, 71, 71, 0.02) 60%,
+      rgba(7, 7, 7, 0.02) 60%,
+      rgba(7, 7, 7, 0.02) 80%,
+      rgba(130, 130, 130, 0.02) 80%,
+      rgba(130, 130, 130, 0.02) 100%
+    ),
+    linear-gradient(
+      293deg,
+      rgba(213, 213, 213, 0.03) 0%,
+      rgba(213, 213, 213, 0.03) 20%,
+      rgba(220, 220, 220, 0.03) 20%,
+      rgba(220, 220, 220, 0.03) 40%,
+      rgba(146, 146, 146, 0.03) 40%,
+      rgba(146, 146, 146, 0.03) 60%,
+      rgba(63, 153, 189, 0.03) 60%,
+      rgba(63, 153, 189, 0.03) 80%,
+      rgba(68, 76, 80, 0.03) 80%,
+      rgba(68, 76, 80, 0.03) 100%
+    ),
+    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+  color: rgba(53, 53, 149, 0.808);
+}
+
+h1 {
+  opacity: 0.8;
+  color: rgba(53, 53, 149, 0.808);
+  font-family: "noto-serif";
+  font-weight: 600;
+  text-shadow: 2px 2px 2px #968881;
+  text-decoration: underline;
+}
+
+button {
+  color: rgba(53, 53, 149, 0.808);
+  background-color: rgb(190, 187, 187);
+  text-shadow: 2px 2px 2px #968881;
+  border-radius: 8%;
+}
+
+button:hover{
+  color: rgba(78, 78, 202, 0.808);
+}
+
+textarea {
+  background-color: rgb(190, 187, 187);
+  color: rgba(53, 53, 149, 0.808);
+} */
+
+/* #top,
+#bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 50%;
+} */
+
+#bottom {
+  background: brown;
+  height: 46vh;
+}
+#top {
+  background: pink;
+  height: 35vh;
+}
+
+#topCauses,
+#bottomCauses,
+#middleCauses {
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  height: 28vh;
+  color: white;
+  font-weight: 700;
+  border: 2px solid white;
+}
+
+#topCauses div:hover,
+#bottomCauses div:hover,
+#middleCauses div:hover {
+  cursor: pointer;
+}
+
+#topCauses {
+  top: 0;
+
+  /* position: absolute; */
+  background-image: url("https://img.jakpost.net/c/2019/01/23/2019_01_23_63773_1548218091._large.jpg");
+  background-size: 100% 100%;
+  opacity: 0.7;
+}
+
+#middleCauses {
+  bottom: 33.3%;
+  background-image: url("https://cdn.givingcompass.org/wp-content/uploads/2018/10/21132114/People-fighting-poverty.jpg");
+  opacity: 0.7;
+}
+
+#bottomCauses {
+  bottom: 0;
+  background-image: url("https://static.timesofisrael.com/www/uploads/2018/03/digital-health-CC.jpg");
+  background-size: 100% 100%;
+  opacity: 0.7;
+}
+/* 
+#top:hover,
+#bottom:hover {
+  cursor: pointer;
+}
+
+#top {
+  top: 0;
+  background-color: #40C2CF;
+  color:white;
+}
+
+#bottom {
+  bottom: 10;
+  background-color: #0054A6;
+  color:white
+}
+
+#top div,
+#bottom div {
+  top: 50%;
+  position: relative;
+}
+
+#topCauses div,
+#middleCauses div, 
+#bottomCauses div {
+  top: 50%;
+  position: relative;
+} */
+
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: #413381;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-weight: 400;
+  align-items: center;
+  margin: 0px;
+}
+
+.mainpage {
+  width: 100vw;
+  height: 85vh;
+  background-color: cyan;
+}
+.footer {
+  width: 100vw;
+  height: 5vh;
+  color: white;
+  font-size: 0.75rem;
+  background-color: #413381;
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0px;
+  margin:0px;
+}
+
+.welcome-image{
+  width: 100vw;
+  height:95vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+}
+
+#causesContainer{
+  height: 70vh;
+  
+}
+
+#investorProfile{
+  font-size: 1.2rem;
+  width: 80%;
+  margin-top: 10vh;
+  text-align: center;
+  margin: 0 auto 0 auto;
+
+}
+
+.maximsBtn {
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.maximsBtn:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.maximsBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.maximImg{
+  height: 18vh;
+}
+
+.investorsImg{
+  height: 13vh;
+}
+
+
